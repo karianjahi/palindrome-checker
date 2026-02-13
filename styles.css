@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0a0a23;
+    width: 50%;
+    color: white;
+    border: 2px solid tan;
+    margin: 15%;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.text-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#possible-palindrome {
+    border: 0px;
+}
+
+#possible-palindrome {
+    border-bottom: 5px solid #5a035a;
+}
+
+#check-button {
+    font-size: 80%;
+    padding: 2.5%;
+    background-color: #5a035a;
+    color: white;
+    border-radius: 10px;
+    height: 2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+#check-button:hover {
+    background: linear-gradient(#b9b2b9, #5a035a, #b9b2b9)
+}
+
+.visible-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid white;
+    padding: 5%;
+    background-color: white;
+    color: black;
+}
+
+#explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border: 2px solid green;
+    text-align: center;
+}
