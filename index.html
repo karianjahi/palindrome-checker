@@ -7,11 +7,20 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <input id="text-input">
-    <button id="check-btn"></button>
-    <div id="result">
-        This is the result
-    </div>
-    <script src="script.js"></script>
+    <header id="header-content">
+        <h1>Palindrome Checker page</h1>
+    </header>
+    <main class="main-content">
+        <p id="introduction">This page is meant to determine if a text is a palindrome</p>
+        <div id="interaction">
+            <input id="text-input" placeholder="Type your text here ..." type="text">
+            <button id="check-btn">Check</button>
+        </div>
+        <div id="result"></div>
+        <div id="permanent-text">
+            A palindrome is a word, number, phrase, or sequence that reads the same forward and backward. Examples include “racecar,” “level,” and “121.” When checking phrases, spaces, punctuation, and capitalization are usually ignored. For example, “Never odd or even” is a palindrome. The sequence remains identical when reversed completely.
+        </div>
+        <script src="script.js"></script>
+    </main>
 </body>
 </html>
