@@ -1,15 +1,20 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 2em;
-    width: 50vw;
+    justify-content: center;
     align-items: center;
-    padding: 2%;
-    margin-left: 15em;
+    min-height: 100vh;
+    padding: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(204, 205, 210);
 }
 
+#text-input {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    font-size: 1.2rem;
+}
 
 #header-content {
     text-shadow: 2px 6px 5px gray;
@@ -17,9 +22,10 @@ body {
 }
 
 #text-input {
-    width: 400px;
+    width: 100%;
+    max-width: 500px;
     height: 50px;
-    font-size: 1.5em;
+    font-size: 1.2rem;
 }
 
 #check-btn {
@@ -48,4 +54,20 @@ body {
     color: chocolate;
     font-size: 2em;
     text-shadow: 3px 2px 2px gray;
+}
+
+@media (max-width: 600px) {
+    #text-input {
+        font-size: 1rem;
+        height: 45px;
+    }
+
+    #check-btn {
+        width: 100%;
+    }
+
+    #result {
+        font-size: 1.5rem;
+        text-align: center;
+    }
 }
