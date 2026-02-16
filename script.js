@@ -1,5 +1,6 @@
-const possiblePalindrome = document.getElementById(possible-palindrome);
+const textInput = document.getElementById("text-input");
+const checkBtn = document.getElementById("check-btn");
 
-possiblePalindrome.addEventListener("click", ()=> {
-    possiblePalindrome.style.borderColor = "black";
+checkBtn.addEventListener("click", ()=> {
+    if (textInput.value.length === 0)  alert("Please input a value");
 });
